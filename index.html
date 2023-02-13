@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Da Crib</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+</head>
+
+<body>
+
+    <a-scene background="color: #FAFAFA">
+        <a-assets>
+            <img id="tiles" src="Assets/Tiles.jpeg">
+            <img id="bricks" src="Assets/Bricks.jpeg">
+            <img id="Waffle" src="Assets/Waffle.jpeg">
+        </a-assets>
+        <a-entity 
+            position="3 0 -4">
+        
+            <!-- Top of Front Boz -->
+             <a-box
+                color="grey"
+                width="4"
+                height="2"
+                depth=".5"
+                position="-2.640 2.439 -0.450"
+                side="double"
+                rotation="0 0 0"
+                scale="1.374 1 1"
+                src="Assets/Waffle.jpeg">
+            </a-box>
+            <!-- Right of front box -->
+            <a-box
+                color="grey"
+                width="4"
+                height="2"
+                depth=".5"
+                position="-1.094 1.452 -0.450"
+                side="double"
+                rotation="0 0 0"
+                scale="0.596 1.8 1"
+                src="Assets/Waffle.jpeg">
+            </a-box>
+            <!-- Left of front box -->
+            <a-box
+            color="grey"
+            width="4"
+            height="2"
+            depth=".5"
+            position="-4.539 1.374 -0.450"
+            side="double"
+            rotation="0 0 0"
+            scale="0.422 1.8 1"
+            src="Assets/Waffle.jpeg">
+        </a-box>
+            <!-- Left Box -->
+            <a-box
+                color="grey"
+                width="4"
+                height="4"
+                depth=".5"
+                position="-5.098 1.452 -2.708"
+                side="double"
+                rotation="0 89.818 0"
+                src="Assets/Waffle.jpeg">
+                
+            </a-box>
+            <!-- Back Box -->
+            <a-box
+                color="grey"
+                width="4"
+                height="4"
+                depth=".5"
+                position="-2.620 1.452 -4.917"
+                side="double"
+                scale="1.377 1 1"
+                src="Assets/Waffle.jpeg">
+            </a-box>
+            <!-- Right box -->
+            <a-box
+                color="grey"
+                width="4"
+                height="4"
+                depth=".5"
+                position="-0.149 1.452 -2.688"
+                side="double"
+                rotation="0 89.818 0"
+                src="Assets/Waffle.jpeg">
+            </a-box>
+            <!-- The Roof -->
+            <a-cylinder
+            
+            position="-2.614 5.022 -2.705"
+            segments-radial="3"
+            radius="3"
+            height="3"
+            depth="3"
+            scale="1.384 2.182 1.034"
+            rotation="-89.664 0 0"
+            src="Assets/Waffle.jpeg">
+            </a-cylinder>
+            <!-- The Window -->
+            <a-plane
+            position="-0.510 1.452 -.19"
+            rotation="0 0 0"
+            width="1"
+            height="1"
+            src="Assets/Window.jpeg"
+            side="double">
+            </a-plane>
+            <!-- The Window -->
+            <a-plane
+            position="0.16 1.452 -2.8"
+            rotation="0 90 0"
+            width="1"
+            height="1"
+            src="Assets/Window.jpeg"
+            side="double">
+            </a-plane>
+        </a-entity>
+
+</body>
+</html>
